@@ -1,3 +1,4 @@
+
 RKOwen@RKOwen-PC MINGW64 /f/Coding Dojo/03. JQuery/Terminal and Git/basic_repo
 $ git init
 Initialized empty Git repository in F:/Coding Dojo/03. JQuery/Terminal and Git/basic_repo/.git/
@@ -6,4 +7,29 @@ RKOwen@RKOwen-PC MINGW64 /f/Coding Dojo/03. JQuery/Terminal and Git/basic_repo (
 $ touch commands.txt
 
 RKOwen@RKOwen-PC MINGW64 /f/Coding Dojo/03. JQuery/Terminal and Git/basic_repo (master)
-$
+$ git add .
+
+RKOwen@RKOwen-PC MINGW64 /f/Coding Dojo/03. JQuery/Terminal and Git/basic_repo (master)
+$ git commit -a -m "initial commit"
+[master (root-commit) 6289884] initial commit
+ 1 file changed, 9 insertions(+)
+ create mode 100644 commands.txt
+
+RKOwen@RKOwen-PC MINGW64 /f/Coding Dojo/03. JQuery/Terminal and Git/basic_repo (master)
+$ git remote add origin https://github.com/PajamaProgrammer/basic_repo.git
+
+RKOwen@RKOwen-PC MINGW64 /f/Coding Dojo/03. JQuery/Terminal and Git/basic_repo (master)
+$ git remote
+origin
+
+RKOwen@RKOwen-PC MINGW64 /f/Coding Dojo/03. JQuery/Terminal and Git/basic_repo (master)
+$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 374 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/PajamaProgrammer/basic_repo.git
+ * [new branch]      master -> master
+
+RKOwen@RKOwen-PC MINGW64 /f/Coding Dojo/03. JQuery/Terminal and Git/basic_repo (master)
