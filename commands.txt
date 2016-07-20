@@ -1,0 +1,9 @@
+RKOwen@RKOwen-PC MINGW64 /f/Coding Dojo/03. JQuery/Terminal and Git/basic_repo
+$ git init
+Initialized empty Git repository in F:/Coding Dojo/03. JQuery/Terminal and Git/basic_repo/.git/
+
+RKOwen@RKOwen-PC MINGW64 /f/Coding Dojo/03. JQuery/Terminal and Git/basic_repo (master)
+$ touch commands.txt
+
+RKOwen@RKOwen-PC MINGW64 /f/Coding Dojo/03. JQuery/Terminal and Git/basic_repo (master)
+$
